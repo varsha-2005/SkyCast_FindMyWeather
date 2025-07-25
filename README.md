@@ -84,7 +84,7 @@ const Home = () => {
 };
 
 export default Home;
-
+```
 Weather.jsx
 
 import React, { useEffect, useState, useMemo } from 'react';
@@ -167,6 +167,7 @@ const App = () => {
 };
 
 export default App;
+```
 
 ## Output:
 <img width="1916" height="1032" alt="image" src="https://github.com/user-attachments/assets/d2c62ff9-9cf3-4c90-acd5-9314b3af7bb0" />
