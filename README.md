@@ -47,7 +47,9 @@ Create a responsive and clean layout using CSS.
 Style form, buttons, weather display cards, and navigation links.
 
 ## Programs:
+
 Home.jsx
+```
 import React, { useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -86,6 +88,7 @@ const Home = () => {
 export default Home;
 ```
 Weather.jsx
+```
 
 import React, { useEffect, useState, useMemo } from 'react';
 import axios from 'axios';
@@ -149,8 +152,10 @@ const Weather = () => {
 };
 
 export default Weather;
+```
 
 App.jsx
+```
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
